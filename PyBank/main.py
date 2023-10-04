@@ -47,7 +47,7 @@ print(f"Average Change: ${average_change:.2f}")
 print(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})")
 print(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
 
-output_file = "output.txt"
+output_file = "analysis.txt"
 with open(output_file, "w") as output:
     output.write("Financial Analysis\n")
     output.write("----------------------------\n")

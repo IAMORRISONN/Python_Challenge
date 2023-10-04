@@ -38,7 +38,7 @@ print("--------------------------")
 print(f"Winner: {winning_candidate}")
 print("--------------------------")
 
-output_file = "output.txt"
+output_file = "analysis.txt"
 with open(output_file, "w") as output:
     output.write("Election Results\n")
     output.write("--------------------------\n")
